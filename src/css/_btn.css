@@ -23,6 +23,18 @@
   box-shadow: 0 1rem 1rem #0006;
 }
 
+.btn--institutional, .btn--quote {
+  display: block;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1279px) {
+  .btn--institutional, .btn--quote {
+    display: unset;
+    margin: unset;
+  }
+}
+
 .btn--contact:hover {
   color: #fff;
 }
